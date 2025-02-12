@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-green: #15803d;
+}
+
+body {
+  @apply antialiased;
+}
+
+#root {
+  @apply min-h-screen;
+}
